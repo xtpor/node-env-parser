@@ -1,0 +1,20 @@
+{
+  "name": "node-env-parser",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./src/index.js",
+  "exports": {
+    "import": "./src/wrapper.mjs",
+    "require": "./src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Tintin Ho <me@tintinho.net>",
+  "license": "MIT",
+  "dependencies": {
+    "immutable": "^4.0.0-rc.12",
+    "lodash": "^4.17.21"
+  }
+}
